@@ -1,0 +1,125 @@
+/* .panel{
+	background:rgb(255, 0, 0);
+	padding:1% 2% 3% 1%;
+	width: 20%;
+	height: 10%;
+	text-align: center;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	border-radius: 40px;
+	margin: auto;
+	word-wrap: break-word;
+	font-size: 1.2vw;
+}
+
+.chislo{
+    text-align:left;
+    margin: auto;
+    border-radius: 45px;
+    background:rgba(136, 255, 189, 0.945);
+    padding:1% 1.5% 2.5% 1%;
+    width: 15%;
+	height: 5%;
+    font-size: 0.8vw;
+    position: relative;
+    top: 10px;
+}
+
+.chisla{
+    text-align:left;
+    margin: auto;
+    border-radius: 45px;
+    background:rgba(214, 255, 118, 0.945);
+    padding:1% 1.5% 2.5% 1%;
+    width: 15%;
+	height: 5%;
+    font-size: 0.8vw;
+    position: relative;
+    top: 36px;
+}
+
+.pole{
+    text-align:center;
+    margin: auto;
+    border-radius: 45px;
+    background:rgba(136, 255, 189, 0.945);
+    padding:5px 2px 3px 2px;
+    width: 15%;
+	height: 5%;
+    font-size: 0.8vw;
+    position: relative;
+    left: 790px;
+    position: relative;
+    top: 5px;
+}
+
+.polya{
+    text-align:center;
+    margin: auto;
+    border-radius: 45px;
+    background:rgba(214, 255, 118, 0.9455);
+    padding:5px 2px 3px 2px;
+    width: 15%;
+	height: 5%;
+    font-size: 0.8vw;
+    position: relative;
+    left: 790px;
+    top: 5px;
+}
+.podval{ 
+        padding: 10px 20px;
+        background: rgb(255, 255, 255);
+        color: white;
+        block-size: 50px;
+        position: relative;
+        top:500px;
+        color: black;
+}
+
+
+.knopka{
+    text-align:center;
+    margin: auto;
+    border-radius: 45px;
+    background:rgba(136, 255, 189, 0.945);
+    padding:5px 2px 3px 2px;
+    width: 15%;
+	height: 5%;
+    font-size: 0.8vw;
+    position: relative;
+    left: 503px;
+    position: relative;
+    top: 35px;
+}
+ */
+
+ .number{
+    background-color: rgba(255, 8, 8, 0.678);
+    width:200px;
+    padding:20px;
+    box-sizing: border-box;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-family:inherit;
+  font-size: inherit;
+}
+.system{
+    background-color: rgb(43, 226, 52);
+    width:200px;
+    padding:20px;
+    box-sizing: border-box;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-family:inherit;
+  font-size: inherit;
+}
+.button{
+    background-color: rgb(43, 174, 226);
+    width:200px;
+    padding:20px;
+    box-sizing: border-box;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-family:inherit;
+  font-size: inherit;
+}
+.Zagolovok{
+   font-weight:900;
+}
