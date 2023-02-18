@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Проект по математике</title>
+    <!--
+    <link rel="stylesheet" href="das.py">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    -->    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="panel">
+            <ol class="Zagolovok">Калькулятор систем счислений</ol>
+        </ul>
+    </header>
+
+    <body>
+        <p id="paragraph"></p>
+        <input id = "number" type = "text" value="Введите число" class="number">
+        <input id = "system" type = "text" value="Введите систему счисление" class="system">
+        <button onclick="myFunction()" class="button">Перевести</button>
+        <p id="result"></p>
+        <script>
+        function myFunction() 
+        {
+            var number, system, result;
+            number = document.getElementById('number').value;
+            system = document.getElementById('system').value;
+            result = ((number >>> 0).toString(system));
+            document.getElementById('result').innerHTML = result;
+        }
+        </script>
+    </body>
+    <!--
+    <form action="/url" method="GET">
+        <p class="chislo">Введите своё число в десятичной системе счисление:</p>
+        <input type="number" step="1" min="1" max="10000" value="0" class="pole"/>
+        <input type="button" value="Перевести!" class="knopka"  rel="das.py"/>
+        <p class="chisla">Число в двоичной(или же в восмиричной или шестацотеричной) системе счисление:</p>
+        <input type="text"class="polya"/>
+    </form>
+    -->
+    <footer class="podval">
+        <p>Сайт сделан в целях проектной работы по теме Системы счисления</p>
+    </footer>
+</body>
+</html>
