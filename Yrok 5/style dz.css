@@ -1,0 +1,92 @@
+/*.kodik{
+	background:blue;
+	padding:2px 4px 5px 10px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	color: white;
+	font-family: Helvetica, sans-serif;
+}*/
+body {
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,94,121,1) 15%, rgba(196,179,214,1) 39%, rgba(99,29,239,1) 76%, rgba(0,212,255,1) 100%);
+}
+.kodik{
+	background:rgb(255, 0, 0);
+	padding:1% 2% 3% 1%;
+	width: 20%;
+	height: 10%;
+	text-align: center;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	border-radius: 40px;
+	margin: auto;
+	word-wrap: break-word;
+	font-size: 1.2vw;
+}
+@media (min-width: 400px) and (max-width:600px){
+	.kodik {
+color:black;
+    }
+}
+
+p{
+	padding:1% 2% 3% 1%;
+	color: white;
+	text-align: center;
+	font-family: "DunaPuff", cursive;
+	font-size: 5vw;
+}
+ul{
+	text-align: center;
+	font-size: 1.8vw;
+}
+
+li{
+	display:inline-flex;
+	margin-right: 10px;
+	color: white;
+}
+.block {
+	width: 30%;
+	margin: 0 auto 30px;
+	padding: 0 20px;
+}
+.block  p {
+	display:inline-block;
+	width: 30%;
+	margin: 0 5px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	border-radius: 10px;
+	font-size: 1.2vw;
+	margin-top: 2%;
+}
+.sc {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #0f979caf;
+	color: #ffffff;
+	text-align: center;
+}
+.hb {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #1e1e7a;
+	color: #ffffff;
+	text-align: center;
+}
+.ft {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #e40902;
+	color: #0004ff;
+	text-align: center;
+}
+.ch {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #038cf5;
+	color: #c4c4d8;
+	text-align: center;
+}

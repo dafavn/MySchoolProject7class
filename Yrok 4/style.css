@@ -1,0 +1,16 @@
+.block {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+
+}
+
+#bth {
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 10px 10px rgba;
+}
